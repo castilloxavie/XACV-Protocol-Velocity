@@ -1,0 +1,67 @@
+# ==========================================
+# SEGURIDAD CRÍTICA (NUNCA SUBIR AL REPOSITORIO)
+# ==========================================
+.env
+*.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================================
+# ENTORNOS VIRTUALES Y DEPENDENCIAS
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# ARCHIVOS COMPILADOS Y CACHÉ DE PYTHON
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# ==========================================
+# ARCHIVOS DEL IDE (PYCHARM / VS CODE)
+# ==========================================
+.idea/
+.vscode/
+*.iml
+*.workspace
+.history/
+
+# ==========================================
+# ARCHIVOS DEL SISTEMA OPERATIVO
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+*.swp
+
+# ==========================================
+# LOGS, TEMPORALES Y BASES DE DATOS LOCALES
+# ==========================================
+*.log
+*.sqlite3
+.cache/
